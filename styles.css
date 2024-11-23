@@ -496,3 +496,15 @@ footer .icon img {
     overflow: hidden;
   }
 }
+.video-container {
+    margin-top: 20px;
+    text-align: center; /* Centra el video dentro del contenedor */
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo para mantener proporciones */
+    height: 340px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para mejorar apariencia */
+  }  
